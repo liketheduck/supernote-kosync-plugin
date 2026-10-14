@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test tests/",
+    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test 'tests/*.test.ts'",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "build": "bash ../tools/build.sh"
