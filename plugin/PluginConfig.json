@@ -1,0 +1,14 @@
+{
+  "name": "Supernote KOSync",
+  "pluginKey": "SupernoteKOSync",
+  "pluginID": "supernotekosync1",
+  "iconPath": "assets/icon.png",
+  "desc": "Sync EPUB and PDF reading positions with KOReader through your KOSync / Calibre-Web-Automated server",
+  "versionCode": "9",
+  "versionName": "1.0.0",
+  "jsMainPath": "index",
+  "uses-permissions": [
+    "plugin.permission.FILE:READ",
+    "plugin.permission.INTERNET"
+  ]
+}

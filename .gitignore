@@ -1,0 +1,32 @@
+# Build output and dependencies
+dist/
+plugin/build/
+plugin/node_modules/
+plugin/android/.gradle/
+plugin/android/.kotlin/
+plugin/android/build/
+plugin/android/app/build/
+plugin/android/local.properties
+plugin/android_project_react_packages.txt
+*.jsbundle
+
+# Local machine and tool state
+.DS_Store
+.claude/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.venv/
+
+# Never commit credentials, device captures or book files
+*.env
+.env*
+config.json
+*.keystore
+!plugin/android/app/debug.keystore
+*.epub
+*.pdf
+*.snplg
+qualification/
+captures/
