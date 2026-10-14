@@ -1,6 +1,6 @@
 # Qualification on real books
 
-Version 1.0.0 was qualified on a Supernote Manta (A5 X2, firmware `Chauvet.E103.2610091001`)
+Version 1.0.0 was qualified on a Supernote Manta (A5 X2, Chauvet 3.30.45, build `Chauvet.E103.2610091001`)
 against Calibre-Web-NextGen v4.1.47, using a size-stratified sample of a personal library:
 30 EPUBs (4 KB to 98 MB) and 12 PDFs (3 KB to 40 MB). Titles are replaced by descriptions.
 

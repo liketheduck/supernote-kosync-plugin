@@ -20,7 +20,7 @@ The plugin never modifies books, the server's database or the reader's own files
 
 ## Requirements
 
-- A Supernote with plugin support. Tested on a Manta (A5 X2), firmware `Chauvet.E103.2610091001`; other plugin-capable models should work but are untested.
+- A Supernote with plugin support. Tested on a **Manta (A5 X2) running Chauvet 3.30.45** (Settings → System → System Version); other plugin-capable models and versions should work but are untested.
 - A KOSync server reachable from the Supernote's Wi-Fi:
   - **Calibre-Web-Automated (NextGen)**: full EPUB and PDF sync (needs its `percentage_push` and `anchor` capabilities, present in current releases).
   - **Any other KOSync server**: PDFs sync fully; EPUB positions can be received approximately but not sent (stock KOSync has no way to accept a position without a KOReader XPointer).

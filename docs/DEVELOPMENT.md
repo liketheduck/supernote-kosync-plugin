@@ -47,7 +47,7 @@ or by a font/layout change. Responses follow CWNG's `SyncLogic.resolveRemotePosi
 
 ### Platform constraints found on the device
 
-These are not documented by Ratta; each was observed on a Manta (firmware 2610091001) and
+These are not documented by Ratta; each was observed on a Manta (Chauvet 3.30.45) and
 shaped the code:
 
 - **JavaScript timers stop while the plugin view is hidden.** Only native events and native
